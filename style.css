@@ -25,6 +25,24 @@ header{
     align-items: center;
 }
 
+h1{
+    font-size: 72px;;
+}
+
+.subheader{
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: #05c7cf;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
 a{
     color: #000;
     font-size: 24px;
@@ -42,4 +60,12 @@ ul{
 li{
     list-style: none;
     padding: 16px;
+}
+
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
