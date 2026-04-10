@@ -68,6 +68,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 #about,
@@ -92,7 +93,7 @@ h2{
     margin-bottom: 24px;
 }
 
-.section__discription{
+.section__description{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,16 +107,16 @@ img{
     width: 100%;
 }
 
-.section__discription--wrapper{
+.section__description--wrapper{
     width: 60%;
 }
 
 .about__img--wrapper,
-.section__discription--wrapper{
+.section__description--wrapper{
     padding: 0 24px;
 }
 
-.section__discription--para{
+.section__description--para{
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
@@ -154,4 +155,30 @@ textarea{
     margin-bottom: 24px;
     padding: 6px 12px;
     font-size: 20px;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links{
+    margin-bottom: 32px;
+}
+
+.footer__link{
+    padding: 0 16px;
 }
